@@ -1,0 +1,8 @@
+cores ={
+    "vermelho":"FF0000",
+    "verde" :"008000",
+    "azul": "0000FF"
+}
+
+for cor, valor in cores.items():
+    print(f"A cor:{cor} tem o código: {valor}")
