@@ -1,0 +1,19 @@
+usuarios = {
+    "guilherme": 2000,
+    "joão": 3000,
+    "yasmin": 4000,
+    "renan": 5000,
+    "gustavo": 6000
+}
+
+existe = input("Verifique se um usuário existe na lista: ")
+
+if existe in usuarios:
+    valorConta = usuarios[existe]
+    if valorConta > 0:
+        print("Saldo é superior a R$00,00: ", valorConta)
+    else:
+        print("Saldo é inferior a 0: ", valorConta)
+        
+else:
+    print("Usuário não existe")
